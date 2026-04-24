@@ -60,7 +60,8 @@ docker build -t <nombre imagen>:<version> .
 Se ejecutan 6 pasos, FROM, RUN, RUN, COPY, EXPOSE, CMD.
 
 ### Inspeccionar la imagen creada
-# COMPLETAR CON UNA CAPTURA
+
+<img width="703" height="65" alt="image" src="https://github.com/user-attachments/assets/da8057f6-b2b8-47d0-9acd-01839475b149" />
 
 **Modificar el archivo index.html para incluir su nombre**
 **¿Cuántos pasos se han ejecutado? ¿Observa algo diferente en la creación de la imagen**
