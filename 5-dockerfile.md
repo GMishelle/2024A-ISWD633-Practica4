@@ -64,7 +64,16 @@ Se ejecutan 6 pasos, FROM, RUN, RUN, COPY, EXPOSE, CMD.
 <img width="703" height="65" alt="image" src="https://github.com/user-attachments/assets/da8057f6-b2b8-47d0-9acd-01839475b149" />
 
 **Modificar el archivo index.html para incluir su nombre**
-**¿Cuántos pasos se han ejecutado? ¿Observa algo diferente en la creación de la imagen**
+
+<img width="942" height="291" alt="image" src="https://github.com/user-attachments/assets/d8d7cd3e-1483-4009-84f0-63795b373577" />
+
+**¿Cuántos pasos se han ejecutado?**
+
+Se ejecutan 6 pasos, los mismos que la anterior vez. 
+
+**¿Observa algo diferente en la creación de la imagen**
+
+Se observa que Docker utiliza el mecanismo de caché, ya que las instrucciones RUN no se vuelven a ejecutar y aparecen como CACHED. Solo se ejecuta nuevamente la instrucción COPY porque el archivo index.html fue modificado. Esto hace que la construcción sea más rápida
 
 ## Mecanismo de caché
 Docker usa un mecanismo de caché cuando crea imágenes para acelerar el proceso de construcción y evitar la repetición de pasos que no han cambiado. Cada instrucción en un Dockerfile crea una capa en la imagen final. Docker intenta reutilizar las capas de una construcción anterior si no han cambiado, lo que reduce significativamente el tiempo de construcción.
