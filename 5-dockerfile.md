@@ -94,7 +94,6 @@ Con el puerto 32768.
 
 <img width="1365" height="242" alt="image" src="https://github.com/user-attachments/assets/dbe10416-e53c-4ecb-a8eb-6aecda7e9a5d" />
 
-
 **¿Qué es una imagen huérfana?**
 
 Una imagen huérfana es una imagen de Docker que no tiene etiquetas (tag) o que no está siendo utilizada por ningún contenedor. Generalmente se generan durante procesos de construcción y ocupan espacio innecesario en el sistema.
