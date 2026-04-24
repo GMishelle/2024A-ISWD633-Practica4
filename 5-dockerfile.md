@@ -56,7 +56,8 @@ docker build -t <nombre imagen>:<version> .
 ```
 
 **¿Cuántos pasos se han ejecutado?**
-# RESPONDER 
+
+Se ejecutan 6 pasos, FROM, RUN, RUN, COPY, EXPOSE, CMD.
 
 ### Inspeccionar la imagen creada
 # COMPLETAR CON UNA CAPTURA
